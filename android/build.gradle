@@ -14,7 +14,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 //==================================================
-// ADD THIS LINE EP37-1: STEP#1
+// ADD THIS LINE EP37-1: STEP#1 ** FOR EP82 : USING FIREBASE ***
 //==================================================        
         classpath 'com.google.gms:google-services:4.3.3'        
     }
