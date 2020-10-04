@@ -1,4 +1,5 @@
 import './screensep81/Ep841Page.dart';
+import './screensep81/Ep851Page.dart';
 import './screensep81/Ep831Page.dart';
 import './screensep81/Ep821Page.dart';
 import './screensep81/Ep811Page.dart';
@@ -174,6 +175,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //============================================================
 // CREATE BUTTON
 //============================================================
+            RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep851Page()),);},child: Text('EP85-1 - Test Connection Firebase Cloud and Flutter for Database services (Write DB, Read DB) )'),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep841Page()),);},child: Text('EP84-1 - Test Connection Firebase Cloud and Flutter for Authen services (login,register,sendmail reset password)'),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep831Page()),);},child: Text('EP83-1 - EP32-1 - Review: Setup Firebase  (authen,Firebase Database,storage) and Config Flutter '),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep821Page()),);},child: Text('EP82-1 - Setup Firebase and Connect Flutter with Firebase (authen,db,storage)'),),
