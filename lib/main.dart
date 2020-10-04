@@ -1,3 +1,4 @@
+import './screensep81/Ep831Page.dart';
 import './screensep81/Ep821Page.dart';
 import './screensep81/Ep811Page.dart';
 import './screens/Ep801APage.dart';
@@ -172,6 +173,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //============================================================
 // CREATE BUTTON
 //============================================================
+            RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep831Page()),);},child: Text('EP83-1 - EP32-1 - Review: Setup Firebase  (authen,Firebase Database,storage) and Config Flutter '),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep821Page()),);},child: Text('EP82-1 - Setup Firebase and Connect Flutter with Firebase (authen,db,storage)'),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep811Page()),);},child: Text('EP81-1 - Download Tutorial from github and upload to your own github'),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep801APage()),);},child: Text('EP80-1 - View Order Detail using Mapping Model'),),
