@@ -10,7 +10,7 @@ class _Ep811PageState extends State<Ep811Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('EP61-1: Download and upload Github'),),
+      appBar: AppBar(title: Text('EP81-1: Download and upload Github'),),
       body: ListView(children: <Widget>[
         Image(image: AssetImage('assets/images/ep611.jpg'),),
         Image(image: AssetImage('assets/images/ep612.jpg'),),      
