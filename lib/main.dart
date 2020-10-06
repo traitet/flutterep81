@@ -1,3 +1,5 @@
+import 'package:flutterep11/screensep81/Ep871Page.dart';
+
 import './screensep81/Ep861Page.dart';
 import './screensep81/Ep841Page.dart';
 import './screensep81/Ep851Page.dart';
@@ -176,6 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //============================================================
 // CREATE BUTTON
 //============================================================
+            RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep871Page()),);},child: Text('EP87-1: Save and Search Food Menu to DB using model mapping '),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep861Page()),);},child: Text('EP86-1 - Test Connection Firebase Cloud and Flutter for Database services (Write File Storage) '),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep851Page()),);},child: Text('EP85-1 - Test Connection Firebase Cloud and Flutter for Database services (Write DB, Read DB) )'),),
             RaisedButton(onPressed: () {Navigator.push(context,MaterialPageRoute(builder: (context) => Ep841Page()),);},child: Text('EP84-1 - Test Connection Firebase Cloud and Flutter for Authen services (login,register,sendmail reset password)'),),
