@@ -7,6 +7,11 @@ import Flutter
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
+    //====================================================
+    // ADD 1 LINE FOR FIREBASE 7 OCT 2020
+    //====================================================    
+    FirebaseApp.configure()
+
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
